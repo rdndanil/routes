@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rdndanil/routes/static/css/main.efdb6115.css",
+    "main.js": "/rdndanil/routes/static/js/main.19c139e4.js",
+    "static/js/453.7576e006.chunk.js": "/rdndanil/routes/static/js/453.7576e006.chunk.js",
+    "index.html": "/rdndanil/routes/index.html",
+    "main.efdb6115.css.map": "/rdndanil/routes/static/css/main.efdb6115.css.map",
+    "main.19c139e4.js.map": "/rdndanil/routes/static/js/main.19c139e4.js.map",
+    "453.7576e006.chunk.js.map": "/rdndanil/routes/static/js/453.7576e006.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.efdb6115.css",
+    "static/js/main.19c139e4.js"
+  ]
+}
