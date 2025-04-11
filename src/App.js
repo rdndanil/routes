@@ -6,7 +6,7 @@ import ZayavkiPage from "./pages/ZayavkiPage";
 
 const App = () => {
   return (
-    <Router>
+    <Router basename="/routes">
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
