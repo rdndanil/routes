@@ -1,0 +1,22 @@
+[
+  {
+    "range_km": "0-250",
+    "summer_speed_kmph": 50,
+    "winter_speed_kmph": 45
+  },
+  {
+    "range_km": "251-400",
+    "summer_speed_kmph": 42,
+    "winter_speed_kmph": 40
+  },
+  {
+    "range_km": "401-600",
+    "summer_speed_kmph": 40,
+    "winter_speed_kmph": 38
+  },
+  {
+    "range_km": "601+",
+    "summer_speed_kmph": 35,
+    "winter_speed_kmph": 32
+  }
+]

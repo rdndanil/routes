@@ -1,18 +1,20 @@
 import React from "react";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Dashboard from "./pages/Dashboard";
 import MainPage from "./pages/MainPage";
 import ZayavkiPage from "./pages/ZayavkiPage";
+import NormativTS from "./pages/NormativTS";
 
 const App = () => {
   return (
-    <HashRouter>
+    <Router>
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/zayavki" element={<ZayavkiPage />} />
+        <Route path="/normativ" element={<NormativTS />} />
       </Routes>
-    </HashRouter>
+    </Router>
   );
 };
 
