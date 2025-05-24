@@ -7,14 +7,14 @@ import NormativTS from "./pages/NormativTS";
 
 const App = () => {
   return (
-    <Router>
+    <HashRouter>
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/zayavki" element={<ZayavkiPage />} />
         <Route path="/normativ" element={<NormativTS />} />
       </Routes>
-    </Router>
+    </HashRouter>
   );
 };
 
