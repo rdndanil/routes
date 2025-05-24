@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import UnloadSchedule from "../components/UnloadSchedule";
 
 const getSeason = () => {
   const today = new Date();
@@ -201,8 +202,6 @@ const CalcNormativ = () => {
           🕓 Ожидаемое прибытие: <strong>{arrivalOriginalTime}</strong>
         </div>
       )}
-
-      <UnloadSchedule arrival={arrivalOriginalTime} />
 
       {arrivalTime && arrivalTime !== arrivalOriginalTime && (
         <div className="mt-2 bg-yellow-50 text-yellow-800 dark:bg-yellow-900 dark:text-yellow-200 p-2 rounded">
