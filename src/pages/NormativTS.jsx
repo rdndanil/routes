@@ -7,7 +7,6 @@ import CalcNormativ from "../components/CalcNormativ";
 const NormativTS = () => {
   return (
     <DashboardLayout>
-      {/* Блок анализа Excel */}
       <BigCard>
         <h3 className="text-lg font-semibold mb-4 text-gray-800 dark:text-white flex items-center">
           <svg
